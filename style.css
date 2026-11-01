@@ -64,8 +64,7 @@ img {
     user-select: none;
 }
 
-/* Custom components */
-main-footer {
+footer {
     display: flex;
     flex-wrap: wrap;
     justify-self: center;
@@ -77,7 +76,7 @@ main-footer {
     margin-bottom: 1%;
 }
 
-main-footer p {
+footer p {
     margin: 1%;
     flex-basis: 100%;
     opacity: 0.2;

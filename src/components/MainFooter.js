@@ -24,11 +24,6 @@ export default class MainFooter extends HTMLElement {
         "/resources/images/links-icons/github.png",
       ),
       new Link(
-        "Soundcloud",
-        "https://soundcloud.com/cyxigo",
-        "/resources/images/links-icons/soundcloud.png",
-      ),
-      new Link(
         "YouTube",
         "https://www.youtube.com/@cyxigo",
         "/resources/images/links-icons/youtube.png",

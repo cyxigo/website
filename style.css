@@ -190,19 +190,6 @@ main-footer p {
     border-radius: 0;
 }
 
-.track-cover {
-    display: inline-block;
-    margin-right: 0.5vw;
-}
-
-.track-cover img {
-    transition: 0.2s ease-in-out;
-}
-
-.track-cover img:hover {
-    scale: 105%;
-}
-
 .section h2 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -219,15 +206,5 @@ main-footer p {
 }
 
 .section:last-of-type {
-    margin-bottom: 0;
-}
-
-.album-title {
-    background-position: center;
-    padding: 10px;
-    font-weight: bold;
-    margin-top: 2vh;
-    font-size: 300%;
-    border-radius: 6px;
     margin-bottom: 0;
 }

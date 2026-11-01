@@ -94,20 +94,16 @@ img {
     user-select: none;
 }
 
-/*
-    Custom elements
-*/
-menu-bar {
+.menu-bar {
     display: flex;
     width: 100%;
     justify-content: flex-start;
     background-color: #282828;
     box-sizing: border-box;
     overflow: hidden;
-    min-height: 2rem;
 }
 
-menu-bar button {
+.menu-bar a {
     transition: 0.1s ease-in-out;
     flex: 1;
     padding: 0.5rem 1rem;
@@ -115,14 +111,29 @@ menu-bar button {
     background-color: #000000;
     color: white;
     font-size: clamp(0.9rem, 2vw, 1.2rem);
+    text-align: center;
+    text-decoration: none;
     min-width: 0;
     overflow: hidden;
     text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
 }
 
-menu-bar button:hover {
+.menu-bar a:hover {
     filter: brightness(1.3);
-    cursor: pointer;
+}
+
+#menu-about {
+    border-bottom-color: #969696;
+}
+
+#menu-projects {
+    border-bottom-color: #ff5757;
+}
+
+#menu-contact {
+    border-bottom-color: #ae57ff;
 }
 
 main-footer {

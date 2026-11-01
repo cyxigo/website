@@ -104,6 +104,7 @@ menu-bar {
     background-color: #282828;
     box-sizing: border-box;
     overflow: hidden;
+    min-height: 2rem;
 }
 
 menu-bar button {

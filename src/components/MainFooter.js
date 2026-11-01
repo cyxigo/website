@@ -16,22 +16,22 @@ export default class MainFooter extends HTMLElement {
       new Link(
         "Newgrounds",
         "https://cyxigo.newgrounds.com",
-        "/resources/images/links-icons/ng.png",
+        "/res/img/link/ng.png",
       ),
       new Link(
         "GitHub",
         "https://github.com/cyxigo",
-        "/resources/images/links-icons/github.png",
+        "/res/img/link/github.png",
       ),
       new Link(
         "YouTube",
         "https://www.youtube.com/@cyxigo",
-        "/resources/images/links-icons/youtube.png",
+        "/res/img/link/youtube.png",
       ),
       new Link(
         "Steam",
         "https://steamcommunity.com/id/cyxigo/",
-        "/resources/images/links-icons/steam.png",
+        "/res/img/link/steam.png",
       ),
     ];
 

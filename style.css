@@ -1,6 +1,4 @@
-/*
-    Animations
-*/
+/* Animations */
 @keyframes jump {
     0% {
         transform: translateY(0);
@@ -29,31 +27,7 @@
     }
 }
 
-@keyframes tremble {
-    0% {
-        transform: translate(2px, -2px);
-    }
-
-    25% {
-        transform: translate(-2px, 2px);
-    }
-
-    50% {
-        transform: translate(-2px, -2px);
-    }
-
-    75% {
-        transform: translate(2px, 2px);
-    }
-
-    100% {
-        transform: translate(2px, -2px);
-    }
-}
-
-/*
-    Base styles
-*/
+/* Base styles */
 :root {
     font-family:
         system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
@@ -68,10 +42,6 @@ body {
 
 br {
     user-select: none;
-}
-
-button {
-    border-width: 0px;
 }
 
 h1 {
@@ -94,6 +64,26 @@ img {
     user-select: none;
 }
 
+/* Custom components */
+main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    max-width: 30rem;
+    margin-bottom: 1%;
+}
+
+main-footer p {
+    margin: 1%;
+    flex-basis: 100%;
+    opacity: 0.2;
+}
+
+/* Classes */
 .menu-bar {
     display: flex;
     width: 100%;
@@ -124,39 +114,6 @@ img {
     filter: brightness(1.3);
 }
 
-#menu-about {
-    border-bottom-color: #969696;
-}
-
-#menu-projects {
-    border-bottom-color: #ff5757;
-}
-
-#menu-contact {
-    border-bottom-color: #ae57ff;
-}
-
-main-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-self: center;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 90%;
-    max-width: 30rem;
-    margin-bottom: 1%;
-}
-
-main-footer p {
-    margin: 1%;
-    flex-basis: 100%;
-    opacity: 0.2;
-}
-
-/*
-    Classes
-*/
 .content {
     background-color: #000000a7;
     padding: 1rem;
@@ -219,4 +176,17 @@ main-footer p {
 
 .section:last-of-type {
     margin-bottom: 0;
+}
+
+/* IDs */
+#menu-about {
+    border-bottom-color: #969696;
+}
+
+#menu-projects {
+    border-bottom-color: #ff5757;
+}
+
+#menu-contact {
+    border-bottom-color: #ae57ff;
 }

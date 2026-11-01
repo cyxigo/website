@@ -143,6 +143,17 @@ footer p {
     min-width: 0;
 }
 
+.jumping-cat-img {
+    margin-top: 100px;
+    animation: jump 0.5s infinite;
+}
+
+.flipping-cat-img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    animation: flip 1s infinite;
+}
+
 .link-container {
     display: inline-flex;
     justify-content: center;

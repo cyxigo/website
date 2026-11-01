@@ -18,18 +18,16 @@ function why() {
     "Hi",
     "Hello",
   ];
-
   alert(messages[Math.floor(Math.random() * messages.length)]);
 }
 
 export default function setupCallback() {
   document.addEventListener("DOMContentLoaded", function () {
-    const images = document.querySelectorAll("img");
-
-    images.forEach((img) => {
-      if (!img.classList.contains("no-why")) {
-        img.onclick = why;
-      }
+    const imgs = document.querySelectorAll(
+      ".jumping-cat-img, .flipping-cat-img",
+    );
+    imgs.forEach((img) => {
+      img.onclick = why;
     });
   });
 }

@@ -74,10 +74,11 @@ footer {
     width: 90%;
     max-width: 30rem;
     margin-bottom: 1%;
+    gap: 0.5rem;
 }
 
 footer p {
-    margin: 1%;
+    margin: 0;
     flex-basis: 100%;
     opacity: 0.2;
 }
@@ -159,7 +160,6 @@ footer p {
     justify-content: center;
     align-items: center;
     gap: 0.2rem;
-    flex: auto;
 }
 
 .link-container img {
